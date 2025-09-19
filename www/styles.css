@@ -1,12 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
 h1 {
     font-family: serif;
-    color: #2f4f4f;
+    color: teal; 
     margin-bottom: 10px;
 }
 
-#page-title {
-    font-family: sans-serif;
-}
 
 .title {
     font-family: monospace;
@@ -28,4 +29,22 @@ h1 {
     padding: 5px;
     border-radius: 5px;
     text-decoration:none;
+}
+
+.featured {
+    background-color: orange;
+}
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 1 5px 0;
+    text-align: center;
+    font-size: 14px
+}
+
+.footer a {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: underline;
 }
